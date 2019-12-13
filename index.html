@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Manao</title>
 </head>
 <body>
+  <div id="system-message"></div>
+  <form action="/" method="post" id="form" accept-charset="UTF-8">
+    <div class="registarion-form">
 
+      <div class="form-item form-type-login">
+        <input class="form-login required" type="text" id="edit-login" name="login" value="" size="60" maxlength="254" placeholder="Login" required="required" aria-required="true">
+      </div>
+
+      <div class="form-item form-type-password">
+        <input class="form-password required" type="password" id="edit-password" name="password" value="" size="60" maxlength="254" placeholder="Password" required="required" aria-required="true">
+      </div>
+
+      <div class="form-item form-type-confirm-password">
+        <input class="form-confirm-password required" type="password" id="edit-confirm-password" name="confirm-password" value="" size="60" maxlength="254" placeholder="Confirm password" required="required" aria-required="true">
+      </div>
+
+      <div class="form-item form-type-email">
+        <input class="form-email required" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" placeholder="Email Address" required="required" aria-required="true">
+      </div>
+
+      <div class="form-item form-type-name">
+        <input class="form-name required" type="text" id="edit-name" name="name" value="" size="60" maxlength="254" placeholder="Name" required="required" aria-required="true">
+      </div>
+
+    </div>
+    <button type="button" id="registration-btn">Submit</button>
+  </form>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" src="scripts/scripts.js"></script>
 </html>
