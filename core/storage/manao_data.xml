@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<users>
+    <user>
+        <id>1</id>
+        <login>admin</login>
+        <password>admin</password>
+        <email>admin@example.com</email>
+        <name>admin</name>
+    </user>
+    <user>
+        <id>2</id>
+        <login>root</login>
+        <password>root</password>
+        <email>root@example.com</email>
+        <name>rikitikitavi</name>
+    </user>
+<user><id>3</id><login>HR</login><password>HR</password><email>hr@hr.com</email><name>Kolosov</name></user><user/><user><login>Lolka</login><password>Lolka</password><email>Lolk@ya.ru</email><name>Lolka</name></user><user><login>VasyaAdmin</login><password>511ef9f73b38ca23243bf7999b196042</password><email>vasy@gmail.com</email><name>Vasya</name></user></users>
